@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        
+        <div id="app">
+            
+            <p> {{ results.name }} </p>
+        
+        <div class="center-img">
+            <img src="C:\Users\HP\Downloads\interview project\Pink-inc.png" alt="beautiful girl">
+        </div>
+        <div class="social-icons">
+            <a v-bind:href="results.social_media.instagram">
+                <i class="fa fa-instagram fa-2x"></i>
+            </a>
+            <a v-bind:href="results.social_media.twitter">
+            <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+            </a>
+           <a v-bind:href="results.social_media.snapchat">
+                <i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i>
+            </a>
+           <a v-bind:href="results.social_media.email">
+                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li><img src="https://cdn.cnn.com/cnnnext/dam/assets/170403180734-patricia-akello-black-models-rock-restricted-use.jpg" style="height: 80px; width: 80px; border-radius: 50%;"></li>
+                <li>Gallery</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        
+</div>
+
+          
+          <script src="https://unpkg.com/vue"></script> 
+          <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+          <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+        <script src="index.js"></script>
+       
+    </body>
+</html>
